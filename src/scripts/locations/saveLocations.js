@@ -10,10 +10,12 @@ const saveLocations = function () {
             content: document.querySelector("#content").value,
             date: Date.now()
         }
+        // This takes the information from the form and puts it in a variable to pass to the API
 
         dataManager.postLocations(newLocation).then(() => {
             locationsForm.clearForm()
         })
+        // This is a simple function to clear the form once you hit submit
     })
 }
 

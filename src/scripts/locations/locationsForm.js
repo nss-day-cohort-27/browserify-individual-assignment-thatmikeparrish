@@ -21,4 +21,6 @@ const locationsForm = Object.create(null, {
     }
 })
 
+// This builds the HTML version of the form and gives an extra feature to clear it when you click the submit button.
+
 module.exports = locationsForm

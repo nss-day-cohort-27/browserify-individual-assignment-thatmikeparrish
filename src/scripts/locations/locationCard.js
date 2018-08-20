@@ -17,4 +17,6 @@ function locationCard(id, name, title, location, content) {
     `;
 }
 
+// This exports the body of the location card, so the next function knows how to build it.
+
 module.exports = locationCard

@@ -8,4 +8,6 @@ function locationsToDOM() {
     });
 }
 
+// This function actually writes the cards to the DOM.
+
 module.exports = locationsToDOM
