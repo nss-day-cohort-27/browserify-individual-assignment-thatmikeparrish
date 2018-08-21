@@ -20,7 +20,7 @@
       "name": "Mike Parrish",
       "title": "Bowling Alley",
       "location": "Hendersonville, TN",
-      "content": "First date with Kayla!",
+      "content": "First date with my lady friend!",
       "date": 1534797661117,
       "id": 3
     },
@@ -47,6 +47,14 @@
       "content": "It's a pretty cool nerdy game bar downtown!",
       "date": 1534881174754,
       "id": 6
+    },
+    {
+      "name": "Mike Parrish",
+      "title": "Here is one more",
+      "location": "Atlanta, GA",
+      "content": "It's just a test, Ikea maybe?",
+      "date": 1534884572173,
+      "id": 7
     }
   ]
 }
