@@ -1,7 +1,81 @@
-body {
-    background-color: teal;
+header {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100rem;
 }
 
-.card{
-    border: 5px, solid, wheat;
+input[type=text] {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    background-image: url(https://media.giphy.com/media/U3PpJxAb2Cnvi/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+textarea {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    background-image: url(https://media1.tenor.com/images/506efe06ecf4472b28462478877b2dd6/tenor.gif?itemid=8491515);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+main {
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+#locationsForm{
+    margin: 2rem 20rem 3rem 20rem;
+}
+
+#submit {
+    width: 100%;
+    background-image: url(https://media.giphy.com/media/rklqHNXvRdV3q/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    color: red;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 3px 2px black;
+}
+
+#locationsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 21rem;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    margin: 1rem;
+    background-image: url(https://cdn.trinixy.ru/pics5/20171227/underwater_15.gif);
+    background-size: cover;
+    background-position: center;
+}
+.card-header {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+.card-body {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+.card-footer {
+    background-color: rgba(128, 128, 128, 0.6);
 }

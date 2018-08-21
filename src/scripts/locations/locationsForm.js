@@ -8,12 +8,11 @@ const locationsForm = Object.create(null, {
     renderForm: {
         value: () => {
             return `
-                <h1>What are some of your favorite places?</h1>
                 <div>
-                    <input required type="text" id="name" placeholder="enter name"><br><br>
-                    <input required type="text" id="title" placeholder="enter a favorite place"><br><br>
-                    <input required type="text" id="location" placeholder="where is it?"><br><br>
-                    <textarea id="content" rows="10"></textarea><br><br>
+                    <input required type="text" id="name" placeholder="What's your name?"><br><br>
+                    <input required type="text" id="title" placeholder="What's the name for one of your favorite places?"><br><br>
+                    <input required type="text" id="location" placeholder="Where is this place at?"><br><br>
+                    <textarea id="content" rows="10" placeholder="Tell us about it!"></textarea><br><br>
                     <button id="submit">submit</button>
                 </div>
             `
